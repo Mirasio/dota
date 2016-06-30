@@ -3,7 +3,7 @@
 PImage b;
 
 void setup() {
-size(460,215);
+size(513,383);
   b = loadImage("dota.jpg");
 
 
@@ -13,8 +13,8 @@ size(460,215);
 
 void draw() {
 for(int i = 0; i!= 500; i++){
- int x = (int)random(0,460),
- y = (int)random(0,215);
+ int x = (int)random(0,513),
+ y = (int)random(0,383);
  color c = b.get(x,y);
  fill(c);
  noStroke();
